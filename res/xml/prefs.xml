@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ <PreferenceCategory android:title="@string/userDetail" >
+       
+    
+           
+    
+     <EditTextPreference    
+           android:key="number1"
+           android:title="Contact Number 1"
+           android:summary="Specify user's contact Details" 
+           />
+    
+      <EditTextPreference    
+           android:key="number2"
+           android:title="Contact Number 2"
+           android:summary="Specify user's contact Details" 
+           />
+      
+       <EditTextPreference    
+           android:key="number3"
+           android:title="Contact Number 3"
+           android:summary="Specify user's contact Details" 
+           />
+    
+    
+    </PreferenceCategory>
+    
+    
+     
+    <PreferenceCategory android:title="@string/alert">
+    
+   
+     
+      <SwitchPreference
+           android:key="smsAlert"
+           android:title="SMS Alert"
+           android:summary="SMS alert to user if intrusion occurs" 
+           />
+      
+      </PreferenceCategory>
+      
+      
+      
+      <PreferenceCategory android:title="@string/type">
+      
+      <Preference
+           android:key="image"
+           android:title="Image gallery"
+           android:summary="Gallery for Capture images " 
+           />
+       
+        <Preference
+           android:key="video"
+           android:title="Video gallery"
+           android:summary="Gallery for captured vedios" 
+           />
+        
+        
+      
+        </PreferenceCategory>
+            
+
+
+
+
+</PreferenceScreen>
